@@ -4,8 +4,8 @@ import PackageDescription
 let package = Package(
     name: "Toucan",
     platforms: [
-        .iOS(.v8),
-        .tvOS(.v9)
+        .iOS(.v12),
+        .tvOS(.v12)
     ],
     products: [
         .library(name: "Toucan", targets: ["Toucan"]),
